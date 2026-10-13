@@ -15,6 +15,6 @@ Open `index.html` (served over http/https - it won't load from a plain
 URL directly.
 
 Optional query params (all have sensible defaults if omitted):
-- `?mode=score|infinite|infinite-solo` - which game mode loads on start
-  (defaults to `score`, the 90-second solo run).
-- `?lang=fr|en` - UI language (auto/defaults to English if omitted).
+- `?mode=infinite-solo|infinite|score` - which game mode loads on start
+  (defaults to `infinite-solo`; `score` is the portfolio's 90-second demo).
+- `?lang=fr|en` - UI language (defaults to French if omitted).
